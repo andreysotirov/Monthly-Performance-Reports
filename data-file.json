@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "name": "Peter Smith",
+      "totalSales": 300,
+      "salesPeriod": 12,
+      "experienceMultiplier": 0.5
+    },
+    {
+      "name": "Andrey Prowless",
+      "totalSales": 600,
+      "salesPeriod": 10,
+      "experienceMultiplier": 0.5
+    }
+  ]
+}
+
