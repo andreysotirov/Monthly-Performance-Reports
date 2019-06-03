@@ -1,7 +1,8 @@
-package com.andrewsotirov;
+package com.andrewsotirov.Entity;
 
 import java.util.List;
 
+//Entity class for data-file.json
 public class DataEntity {
     private String name;
     private Integer totalSales;
