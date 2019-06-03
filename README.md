@@ -26,15 +26,15 @@ And tweak the report definition in report-definition.json
 WriteCSV.java is the class that is responsible to write data.csv. If you want to parse different JSON files to CSV
 you'll may have to modify String[] header array on Line 20 
 
-```bash
+````bash
  String[] header = {"Name", "Score"};
-```
+````
 
 and writer.writeAll on Line 23.
 
-```bash
+````bash
   writer.writeAll(scoreCalculator.calculateScore(), false);
-```
+````
 
 Default path to CSV file is /csv
 
