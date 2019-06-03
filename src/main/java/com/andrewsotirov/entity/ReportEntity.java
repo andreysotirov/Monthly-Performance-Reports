@@ -1,6 +1,6 @@
-package com.andrewsotirov.Entity;
+package com.andrewsotirov.entity;
 
-//Entity class for report-definition.json
+//entity class for report-definition.json
 public class ReportEntity {
 
     private Integer topPerformersThreshold;

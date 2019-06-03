@@ -1,6 +1,6 @@
-package com.andrewsotirov.Writer;
+package com.andrewsotirov.writer;
 
-import com.andrewsotirov.Calculator.ScoreCalculator;
+import com.andrewsotirov.scorecalculator.ScoreCalculator;
 import com.opencsv.CSVWriter;
 
 import java.io.FileWriter;

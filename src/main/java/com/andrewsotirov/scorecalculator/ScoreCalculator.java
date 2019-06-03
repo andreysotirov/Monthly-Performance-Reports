@@ -1,9 +1,9 @@
-package com.andrewsotirov.Calculator;
+package com.andrewsotirov.scorecalculator;
 
-import com.andrewsotirov.Entity.DataEntity;
-import com.andrewsotirov.Entity.ReportEntity;
-import com.andrewsotirov.Reader.DataReader;
-import com.andrewsotirov.Reader.ReportReader;
+import com.andrewsotirov.entity.DataEntity;
+import com.andrewsotirov.entity.ReportEntity;
+import com.andrewsotirov.reader.DataReader;
+import com.andrewsotirov.reader.ReportReader;
 
 import java.util.ArrayList;
 import java.util.List;

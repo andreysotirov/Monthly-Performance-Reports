@@ -1,6 +1,6 @@
-package com.andrewsotirov.Reader;
+package com.andrewsotirov.reader;
 
-import com.andrewsotirov.Entity.DataEntity;
+import com.andrewsotirov.entity.DataEntity;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
