@@ -40,12 +40,12 @@ Default path to CSV file is /csv
 
 Default name is data.csv
 
-#Usage
+##Usage
 
 ScoreCalculator.java makes easy validation and calculations on which depends if the object will be written
 to the CSV file.
 
-#Libraries
+##Libraries
 
 Jackson-Databind
 
