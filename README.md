@@ -23,7 +23,7 @@ And tweak the report definition in report-definition.json
 
 ## CSV
 
-WriteCSV.java is the class that is responsible to write data.csv. If you want to parse different JSON files to CSV
+CsvWriter.java is the class that is responsible to write data.csv. If you want to parse different JSON files to CSV
 you'll may have to modify String[] header array on Line 20 
 
 ```bash
