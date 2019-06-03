@@ -6,7 +6,7 @@ import com.opencsv.CSVWriter;
 import java.io.FileWriter;
 
 //CSV writer class
-public class WriteCSV {
+public class CsvWriter {
 
     ScoreCalculator scoreCalculator = new ScoreCalculator();
 
