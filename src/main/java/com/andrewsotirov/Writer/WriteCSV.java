@@ -16,8 +16,10 @@ public class WriteCSV {
         FileWriter outputFile = new FileWriter("csv/data.csv");
 
         CSVWriter writer = new CSVWriter(outputFile);
+
         String[] header = {"Name", "Score"};
         writer.writeNext(header, false);
+
         writer.writeAll(scoreCalculator.calculateScore(), false);
         writer.close();
 
