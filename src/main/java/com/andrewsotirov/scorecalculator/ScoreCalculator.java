@@ -3,7 +3,9 @@ package com.andrewsotirov.scorecalculator;
 import com.andrewsotirov.entity.DataEntity;
 import com.andrewsotirov.entity.ReportEntity;
 import com.andrewsotirov.reader.DataReader;
+import com.andrewsotirov.reader.DataReaderImpl;
 import com.andrewsotirov.reader.ReportReader;
+import com.andrewsotirov.reader.ReportReaderImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +13,8 @@ import java.util.List;
 //Calculate and validate score
 public class ScoreCalculator  {
 
-    private DataReader dataReader = new DataReader();
-    private ReportReader reportReader = new ReportReader();
+    private DataReader dataReader = new DataReaderImpl();
+    private ReportReader reportReader = new ReportReaderImpl();
 
     private List<DataEntity> data = dataReader.dataMapper().getData();
     private ReportEntity report = reportReader.reportMapper();
