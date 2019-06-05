@@ -9,13 +9,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Calculate and validate score
-public class ScoreCalculator {
+public class ScoreCalculator  {
 
     private DataReader dataReader = new DataReader();
     private ReportReader reportReader = new ReportReader();
 
     private List<DataEntity> data = dataReader.dataMapper().getData();
     private ReportEntity report = reportReader.reportMapper();
+
 
 
     public List<String[]> calculateScore() {
@@ -36,6 +37,7 @@ public class ScoreCalculator {
 
             } else {
 
+                //Check if SalesPeriod is <= than PeriodLimit && result is >= TopPerformersThreshold
                 Double result = (double) (data.get(i).getTotalSales() / data.get(i).getSalesPeriod());
                 if (data.get(i).getSalesPeriod() <= report.getPeriodLimit()
                         && result >= report.getTopPerformersThreshold()) {
